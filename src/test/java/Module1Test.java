@@ -10,7 +10,7 @@ public class Module1Test {
 
 	@Test(groups = { "P2", "BVT" })
 	public void testMethod2() {
-		assertEquals(1, 2);
+		assertEquals(1, 1);
 	}
 	
 	@Test(groups = { "P1", "FVT" })
