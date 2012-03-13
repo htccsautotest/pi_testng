@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.308" errors="0" skipped="0" tests="3" name="TestSuite">
+<testsuite failures="1" time="0.333" errors="0" skipped="0" tests="3" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/guilechao/git/pi/pi_testng"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/guilechao/git/pi/pi_testng/target/surefire/surefirebooter9171593548452046282.jar"/>
+    <property name="surefire.real.class.path" value="/Users/guilechao/git/pi/pi_testng/target/surefire/surefirebooter4134790824999609376.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/iR/iROjijUWGliLc5FH3cITQU+++TI/-Tmp-/"/>
     <property name="line.separator" value="
 "/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/Users/guilechao/git/pi/pi_testng/target/surefire/surefirebooter9171593548452046282.jar /Users/guilechao/git/pi/pi_testng/target/surefire/surefire8402160179869429862tmp /Users/guilechao/git/pi/pi_testng/target/surefire/surefire6516499097278698123tmp"/>
+    <property name="sun.java.command" value="/Users/guilechao/git/pi/pi_testng/target/surefire/surefirebooter4134790824999609376.jar /Users/guilechao/git/pi/pi_testng/target/surefire/surefire6801992307377417695tmp /Users/guilechao/git/pi/pi_testng/target/surefire/surefire7985631496937930578tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -62,7 +62,20 @@
     <property name="mrj.version" value="1060.1.6.0_26-384"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.006" classname="Module1Test" name="testMethod1"/>
-  <testcase time="0" classname="Module1Test" name="testMethod2"/>
-  <testcase time="0" classname="Module1Test" name="testMethod3"/>
+  <testcase time="0.011" classname="Module1Test" name="TC00001"/>
+  <testcase time="0.007" classname="Module1Test" name="TC00002">
+    <failure message="expected:&lt;1&gt; but was:&lt;2&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at Module1Test.TC00002(Module1Test.java:20)
+</failure>
+    <system-out>---------- onTestStart TC00002(this is test2 description) ----------
+the 1st annotation is @org.testng.annotations.Test(expectedExceptions=[], alwaysRun=false, enabled=true, dependsOnMethods=[], ignoreMissingDependencies=false, testName=, dataProviderClass=class java.lang.Object, dataProvider=, expectedExceptionsMessageRegExp=.*, singleThreaded=false, suiteName=, dependsOnGroups=[], successPercentage=100, threadPoolSize=0, invocationTimeOut=0, retryAnalyzer=class java.lang.Class, sequential=false, timeOut=30000, invocationCount=1, priority=0, description=this is test2 description, parameters=[], skipFailedInvocations=false, groups=[P1, FVT])
+---------- onTestFailure TC00002(this is test2 description) ----------
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="Module1Test" name="TC00003"/>
 </testsuite>

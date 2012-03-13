@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.308 sec
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.333 sec <<< FAILURE!
+TC00002(Module1Test)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<2>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at Module1Test.TC00002(Module1Test.java:20)
+

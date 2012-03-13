@@ -5,7 +5,7 @@
     <classes>
       <class name="Module1Test">
         <methods>
-          <include name="testMethod2"/>
+          <include name="TC00002"/>
         </methods>
       </class> <!-- Module1Test -->
     </classes>
