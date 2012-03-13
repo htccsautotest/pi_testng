@@ -224,7 +224,10 @@ def main(argv=None):
         author_id = get_testopia_author_id(tp, testopia_id)
         logger.info("author '%s' id is %d" % (testopia_id, author_id)) 
 
-        product_id = get_testopia_product_id(tp, product_name)
+        if (product_name == "PI_SampleProduct"):
+            product_id = 12
+        else:    
+            product_id = get_testopia_product_id(tp, product_name)
         logger.info("product '%s' id is %d" % (product_name, product_id)) 
 
         if (mode == "add_build") :            
