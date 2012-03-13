@@ -1,0 +1,35 @@
+#surefire
+#Tue Mar 13 08:56:09 GMT+08:00 2012
+testClassesDirectory=/Users/guilechao/Dropbox/src/try/maven_testng/test1/target/test-classes
+classPathUrl.4=/Users/guilechao/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar
+classPathUrl.3=/Users/guilechao/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+classPathUrl.2=/Users/guilechao/.m2/repository/org/testng/testng/6.4/testng-6.4.jar
+useManifestOnlyJar=true
+classPathUrl.1=/Users/guilechao/Dropbox/src/try/maven_testng/test1/target/classes
+reportsDirectory=/Users/guilechao/Dropbox/src/try/maven_testng/test1/target/surefire-reports
+classPathUrl.0=/Users/guilechao/Dropbox/src/try/maven_testng/test1/target/test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.testng.TestNGProvider
+testSuiteDefinitionTestSourceDirectory=/Users/guilechao/Dropbox/src/try/maven_testng/test1/src/test/java
+surefireClassPathUrl.3=/Users/guilechao/.m2/repository/org/apache/maven/surefire/surefire-api/2.7.1/surefire-api-2.7.1.jar
+surefireClassPathUrl.2=/Users/guilechao/.m2/repository/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar
+testFwJarVersion=6.4
+surefireClassPathUrl.1=/Users/guilechao/.m2/repository/org/apache/maven/maven-artifact/2.0/maven-artifact-2.0.jar
+surefireClassPathUrl.0=/Users/guilechao/.m2/repository/org/apache/maven/surefire/surefire-testng/2.7.1/surefire-testng-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=/Users/guilechao/Dropbox/src/try/maven_testng/test1/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+testng.test.classpath=/Users/guilechao/Dropbox/src/try/maven_testng/test1/target/test-classes
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+childDelegation=false
+classPathUrl.6=/Users/guilechao/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar
+classPathUrl.5=/Users/guilechao/.m2/repository/com/beust/jcommander/1.12/jcommander-1.12.jar

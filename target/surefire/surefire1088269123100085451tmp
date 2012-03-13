@@ -1,0 +1,5 @@
+#surefire
+#Tue Mar 13 08:56:09 GMT+08:00 2012
+user.dir=/Users/guilechao/Dropbox/src/try/maven_testng/test1
+localRepository=/Users/guilechao/.m2/repository
+basedir=/Users/guilechao/Dropbox/src/try/maven_testng/test1
