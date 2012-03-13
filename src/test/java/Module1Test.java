@@ -17,7 +17,7 @@ public class Module1Test {
 			, timeOut = 30 * 1000
 			, groups = { "P1", "FVT" })
 	public void TC00002() {
-		assertEquals(1, 2);
+		assertEquals(1, 1);
 	}
 	
 	@Test(description = "this is test3 description"
