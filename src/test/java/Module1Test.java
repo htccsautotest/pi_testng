@@ -27,4 +27,13 @@ public class Module1Test {
 	public void TC00003() {
 		assertEquals(1, 1);
 	}
+	
+	@Test(description = "this is test5 description"
+		, enabled = true			
+		, timeOut = 30 * 1000
+		, groups = { "P2", "BVT" })
+	public void TC00005() {
+		assertEquals(1, 1);
+	}
+	
 }
