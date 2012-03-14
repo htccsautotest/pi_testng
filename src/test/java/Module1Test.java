@@ -12,7 +12,7 @@ public class Module1Test {
 		assertEquals(1, 1);
 	}
 
-	@Test(description = "this is test2 update2 description"
+	@Test(description = "this is test2 description version 0952"
 			, enabled = true			
 			, timeOut = 30 * 1000
 			, groups = { "P1", "FVT" })
