@@ -10,9 +10,10 @@ public class Module1Test {
 			, groups = { "P0", "BVT" })
 	public void TC00001() {
 		assertEquals(1, 1);
+		
 	}
 
-	@Test(description = "this is test2 description version 0930"
+	@Test(description = "this is test2 description version 3333"
 			, enabled = true			
 			, timeOut = 30 * 1000
 			, groups = { "P1", "FVT" })
@@ -49,6 +50,14 @@ public class Module1Test {
 		, timeOut = 30 * 1000
 		, groups = { "P2", "BVT" })
 	public void TC00007() {
+		assertEquals(1, 1);
+	}	
+
+	@Test(description = "this is test8 description"
+		, enabled = true			
+		, timeOut = 30 * 1000
+		, groups = { "P2", "BVT" })
+	public void TC00008() {
 		assertEquals(1, 1);
 	}	
 	
