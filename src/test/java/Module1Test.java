@@ -12,7 +12,7 @@ public class Module1Test {
 		assertEquals(1, 1);
 	}
 
-	@Test(description = "this is test2 description version 1133"
+	@Test(description = "this is test2 description version 0930"
 			, enabled = true			
 			, timeOut = 30 * 1000
 			, groups = { "P1", "FVT" })
@@ -41,6 +41,14 @@ public class Module1Test {
 		, timeOut = 30 * 1000
 		, groups = { "P2", "BVT" })
 	public void TC00006() {
+		assertEquals(1, 2);
+	}	
+
+	@Test(description = "this is test7 description"
+		, enabled = true			
+		, timeOut = 30 * 1000
+		, groups = { "P2", "BVT" })
+	public void TC00007() {
 		assertEquals(1, 1);
 	}	
 	
